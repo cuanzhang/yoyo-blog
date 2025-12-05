@@ -34,3 +34,7 @@ publishDir = "docs"
   url = "/posts/"
   weight = 2
 
+[params.assets]
+  disableFingerprinting = true
+
+
