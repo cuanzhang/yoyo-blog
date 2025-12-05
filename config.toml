@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Yoyo's Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowToc = true

@@ -1,0 +1,36 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Yoyo's Blog"
+theme = "PaperMod"
+publishDir = "docs"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  [params.homeInfoParams]
+    Title = "Yoyo's Blog"
+    Content = "写给悠悠的小世界。"
+
+ [params.profileMode]
+  enabled = true
+  title = "Yoyo's Blog"
+  subtitle = "写给悠悠的小世界 💛"
+  imageUrl = ""
+  imageWidth = 120
+  imageHeight = 120
+
+
+[[menu.main]]
+  name = "主页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
