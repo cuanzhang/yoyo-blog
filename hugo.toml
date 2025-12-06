@@ -37,4 +37,10 @@ publishDir = "docs"
 [params.assets]
   disableFingerprinting = true
 
+[[menu.main]]
+  name = "Yoyo's Space"
+  url = "/yoyo-space/"
+  weight = 20
+
+
 
